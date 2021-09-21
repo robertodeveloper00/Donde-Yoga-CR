@@ -1,0 +1,169 @@
+{
+  "sanJose": [
+    {
+      "name": "Ashtanga Yoga SATYA",
+      "phoneNumber": 22211008,
+      "address": "50 m sur de la Escuela México Calle 21, avenidas 13 y 15, San José, 10101",
+      "website": "http://www.ashtangayogasatya.com/",
+      "directions": { "lat": 9.9390407, "lng": -84.0689682 }
+    },
+    {
+      "name": "Yoga Mandir",
+      "phoneNumber": 25241843,
+      "address": "Av. 5, Saprissa, San José, San Pedro",
+      "website": "https://www.yoga-mandir.com/",
+      "directions": { "lat": 9.9343711, "lng": -84.0528207 }
+    },
+    {
+      "name": "Krama Yoga",
+      "phoneNumber": 22153535,
+      "address": "ECOPLAZA VILLA REAL, Calle Quintanilla, Pozos, San Jose, San José Province, Pozos, 10903",
+      "website": "https://www.kramayoga.com/",
+      "directions": { "lat": 9.9470316, "lng": -84.1804226 }
+    }
+  ],
+
+  "heredia": [
+    {
+      "name": "Yoga Batsù",
+      "phoneNumber": 88199099,
+      "address": "Ciudad Cariari, calle Los Jardines casa #36 40703 La Asunción, Heredia Province, Costa Rica",
+      "website": "https://www.facebook.com/Yogabatsu/",
+      "directions": { "lat": 9.9703228, "lng": -84.1552882 }
+    },
+    {
+      "name": "Samadhi Yoga CR",
+      "phoneNumber": 83116655,
+      "address": "Plaza de las Artes, 25 metros oeste del Super el Marino, contiguo al edificio de la UNA 40901 San Pablo, Heredia Province, Costa Rica",
+      "website": "https://www.facebook.com/SamadhiYogaCR",
+      "directions": { "lat": 10.0005777, "lng": -84.104383 }
+    },
+    {
+      "name": "Metamorfosis Yoga & Pilates",
+      "phoneNumber": 72861657,
+      "address": "Mercedes Norte, frente al cementerio Heredia, Heredia Province, Costa Rica",
+      "website": "https://www.facebook.com/pilatesheredia",
+      "directions": { "lat": 10.0028924, "lng": -84.1297752 }
+    }
+  ],
+
+  "cartago": [
+    {
+      "name": "Adhara Yoga CR",
+      "phoneNumber": 89866979,
+      "address": "San Gerardo, Cartago Province, Cartago",
+      "website": "https://www.facebook.com/adharayogacr",
+      "directions": { "lat": 9.8383405, "lng": -83.9170977 }
+    },
+    {
+      "name": "Santôcha Studio",
+      "phoneNumber": 88843772,
+      "address": "Cartago Centro de la esquina sur este de los Tribunales de Justicia 300 m sur 200 m este contiguo al Bufete de Abogados. 30101 Cartago, Cartago Province, Costa Rica",
+      "website": "http://santochastudio.com/",
+      "directions": { "lat": 9.8595423, "lng": -83.9232781 }
+    },
+    {
+      "name": "Yoga Sol",
+      "phoneNumber": 25920069,
+      "address": "350m oeste de la Estación de Trenes, Av. 3, Provincia de Cartago, Cartago",
+      "website": "https://www.yogasolcr.com/",
+      "directions": { "lat": 9.8669314, "lng": -83.9271662 }
+    }
+  ],
+
+  "alajuela": [
+    {
+      "name": "Centro de Yoga SATTWA",
+      "phoneNumber": 24408800,
+      "address": "50m Oeste de la Farmacia Fischel de calle ancha",
+      "website": "https://www.facebook.com/CentroYogaSattwaAlajuela/",
+      "directions": { "lat": 10.0146699, "lng": -84.211173 }
+    },
+    {
+      "name": "Yoga Ganesh",
+      "phoneNumber": 83904117,
+      "address": "La Ribera de Belén y Ciudad Cariari 40703 Heredia, Heredia Province, Costa Rica",
+      "website": "https://yogaganesh.net/",
+      "directions": { "lat": 9.9864202, "lng": -84.1897901 }
+    },
+    {
+      "name": "Vital Yoga Center",
+      "phoneNumber": 85839313,
+      "address": "200 mts Oeste del Automercado, hacia las vueltas, Paso comercial Don Fausto. 20105 La Guácima, Alajuela Province, Costa Rica",
+      "website": "https://www.facebook.com/vitalyogacr",
+      "directions": { "lat": 9.9559224, "lng": -84.2678278 }
+    }
+  ],
+
+  "puntarenas": [
+    {
+      "name": "Studio Yoga Meraki",
+      "phoneNumber": 86835692,
+      "address": "Av. 13, Barrio La Riviera, Provincia de Puntarenas, Espíritu Santo",
+      "website": "https://www.facebook.com/studioyogameraki",
+      "directions": { "lat": 9.995375, "lng": -84.6701412 }
+    },
+    {
+      "name": "Montezuma Yoga",
+      "phoneNumber": 87041632,
+      "address": "Main road, Hotel Los Mangos, Puntarenas Province, Montezuma, 60111",
+      "website": "https://www.montezumayoga.com/",
+      "directions": { "lat": 9.6519663, "lng": -85.0708857 }
+    },
+    {
+      "name": "Aurora Yoga & Wellness",
+      "phoneNumber": 83020609,
+      "address": "Jacó Walk, Av. Pastor Díaz local #15, Provincia de Puntarenas, Jacó, 61101",
+      "website": "https://aurorayogajaco.com/",
+      "directions": { "lat": 9.6112596, "lng": -84.6266901 }
+    }
+  ],
+
+  "limon": [
+    {
+      "name": "AmaSer Yoga Center",
+      "phoneNumber": 89864882,
+      "address": "C. 213, Limón, Puerto Viejo de Talamanca, 70403",
+      "website": "https://www.amasercr.com/",
+      "directions": { "lat": 9.6529689, "lng": -82.7546606 }
+    },
+    {
+      "name": "Samasati Yoga",
+      "phoneNumber": 84283918,
+      "address": "Main road, Hotel Los Mangos, Puntarenas Province, Montezuma, 60111",
+      "website": "https://www.samasati.com/",
+      "directions": { "lat": 9.6548285, "lng": -82.8083754 }
+    },
+    {
+      "name": "Shakti Yoga",
+      "phoneNumber": 88693971,
+      "address": "150 mts est 130 mts south the hotel La Costa de Papito Cocles, Limón",
+      "website": "https://www.facebook.com/asanteartandmovement/",
+      "directions": { "lat": 9.6434332, "lng": -82.7359605 }
+    }
+  ],
+
+  "guanacaste": [
+    {
+      "name": "Om Shanti Yoga Studio BE",
+      "phoneNumber": 85916236,
+      "address": "Plaza Tamarindo CC, 2nd floor, above the ABC Real Estate offices.",
+      "website": "http://www.seromshantiyoga.com/",
+      "directions": { "lat": 10.2978833, "lng": -85.8430497 }
+    },
+    {
+      "name": "Sattva Yoga Costa Rica",
+      "phoneNumber": 89839894,
+      "address": "Calle Principle Guanacaste Playa Potrero, 51111",
+      "website": "http://sattvayogacostarica.com/",
+      "directions": { "lat": 10.447087, "lng": -85.7747908 }
+    },
+    {
+      "name": "Chillasana Yoga Surf",
+      "phoneNumber": 84408595,
+      "address": "51103 En Frente del viejo aeropuerto Playa, Guanacaste Province, Puerto Carrillo, 51103",
+      "website": "https://www.chillasanayogasurf.com/",
+      "directions": { "lat": 9.8713069, "lng": -85.4896198 }
+    }
+  ]
+}

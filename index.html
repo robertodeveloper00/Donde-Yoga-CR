@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>¿Donde Yoga CR?</title>
+  </head>
+  <body>
+    <main>
+      <section class="content-container">
+        <header>
+          <h1>¿Donde Yoga CR?</h1>
+          <h2>Buscador de Estudios de Yoga en Costa Rica</h2>
+        </header>
+
+        <section class="finder__container">
+          <div class="finder__dropdown">
+            <select name="provinces" id="province-selection">
+              <option value="selecciona">Selecciona tu Provincia</option>
+              <option value="sanJose">San José</option>
+              <option value="heredia">Heredia</option>
+              <option value="cartago">Cartago</option>
+              <option value="alajuela">Alajuela</option>
+              <option value="puntarenas">Puntarenas</option>
+              <option value="limon">Limón</option>
+              <option value="guanacaste">Guanacaste</option>
+            </select>
+          </div>
+          <div class="finder__accordion">
+            <h4 class="dy__logo">DY</h4>
+          </div>
+          <div class="finder__map" id="map"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmKN76XOZzHiKaKECuSESLHRdOdD6x-Xk&callback=initMap"
+      defer
+    ></script>
+  </body>
+</html>

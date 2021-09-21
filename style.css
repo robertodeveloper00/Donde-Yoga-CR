@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+:root {
+  --primary-color: 95, 36, 36;
+  --secondary-color: 62, 66, 109;
+  --border-radius: 5px;
+  --box-shadow: -2px 2px 9px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: whitesmoke;
+  font-family: "Raleway";
+
+  height: 100vh;
+}
+
+main {
+  background: linear-gradient(
+      rgba(var(--primary-color), 0.8),
+      rgba(var(--secondary-color), 0.8)
+    ),
+    url(./img/kike-vega-F2qh3yjz6Jk-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom 25% right;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+h1 {
+  font-family: "Merienda";
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+a {
+  color: inherit;
+}
+
+.content-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.finder__container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  column-gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.finder__dropdown {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  align-self: start;
+  justify-self: center;
+  position: relative;
+}
+
+.finder__dropdown select {
+  font-size: 1.3rem;
+  box-shadow: -2px 2px 9px rgba(0, 0, 0, 0.2);
+  padding: 1rem 1.5rem;
+  background-color: rgba(var(--secondary-color), 0.8);
+  color: whitesmoke;
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(165, 128, 128, 0.5);
+}
+
+.finder__accordion {
+  width: 60rem;
+  grid-row: 2 / 7;
+  border-radius: var(--border-radius);
+  box-shadow: var(--bo);
+}
+
+.finder__accordion--item {
+  background-color: rgba(42, 42, 46, 0.9);
+  font-size: 1.5rem;
+  border: 1px solid rgba(165, 128, 128, 0.5);
+  border-radius: 5px;
+}
+
+.finder__accordion--item-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.finder__accordion--item-header img {
+  height: 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.finder__accordion--item-body {
+  background-color: rgba(62, 66, 109, 0.9);
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  list-style: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%221em%22%20height%3D%221em%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%202C6.486%202%202%206.486%202%2012s4.486%2010%2010%2010s10-4.486%2010-10S17.514%202%2012%202zm0%2015v-4H7v-2h5V7l5%205l-5%205z%22%20fill%3D%22whitesmoke%22%2F%3E%3C%2Fsvg%3E");
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.finder__accordion--item.active .finder__accordion--item-body {
+  opacity: 1;
+  height: 100%;
+  padding: 1.5rem 3rem;
+}
+
+.finder__accordion--item.active img {
+  transform: rotate(-180deg);
+}
+
+.dy__logo {
+  font-family: "Merienda";
+  font-size: 15rem;
+  opacity: 0.9;
+}
+
+#map {
+  grid-row: 2 / 7;
+  height: 500px;
+  width: 300px;
+
+  box-shadow: -2px 2px 9px rgba(0, 0, 0, 0.2);
+}
+
+.gm-style-iw-d h3 {
+  color: rgba(0, 0, 0, 0.8);
+}
