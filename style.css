@@ -26,7 +26,7 @@ main {
     ),
     url(./img/kike-vega-F2qh3yjz6Jk-unsplash.jpg);
   background-size: cover;
-  background-position: bottom 25% right;
+  background-position: bottom 25% center;
   height: 100vh;
   overflow: auto;
 }
