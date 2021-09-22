@@ -11,13 +11,6 @@ let directions = {
   info: "Costa Rica",
 };
 
-// function setDirections(directions, info) {
-//   directions = {
-//     center: directions,
-//     info: info,
-//   };
-// }
-
 fetch("./dondeYogaAPI.json")
   .then((res) => res.json())
   .then((data) => {
@@ -29,8 +22,11 @@ fetch("./dondeYogaAPI.json")
 
       // Creating the HTML
       if (selectedItem === "selecciona") {
+        directions.center = { lat: 9.9281, lng: -84.0907 };
+        directions.info = "Costa Rica";
+        initMap();
         accordionContainer.innerHTML = `
-          <h4 class="dy__logo">DY</h4>
+          <img src="./img/SVG/logo.svg" alt="Logo" class="dy__logo"></img>
         `;
       } else {
         accordionContainer.innerHTML = "";
@@ -77,6 +73,7 @@ fetch("./dondeYogaAPI.json")
         ".finder__accordion--item-header"
       );
 
+      // Populate Location and InfoWindow
       for (let i = 0; i < itemHeaders.length; i++) {
         itemHeaders[i].addEventListener("click", () => {
           // Opening one item exclusively
@@ -89,6 +86,7 @@ fetch("./dondeYogaAPI.json")
 
           directions.center = data[selectedItem][i].directions;
           directions.info = data[selectedItem][i].name;
+
           initMap();
         });
       }

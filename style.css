@@ -17,8 +17,6 @@
 body {
   color: whitesmoke;
   font-family: "Raleway";
-
-  height: 100vh;
 }
 
 main {
@@ -29,6 +27,8 @@ main {
     url(./img/kike-vega-F2qh3yjz6Jk-unsplash.jpg);
   background-size: cover;
   background-position: bottom 25% right;
+  height: 100vh;
+  overflow: auto;
 }
 
 header {
@@ -65,10 +65,13 @@ a {
 
 .finder__container {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
   column-gap: 1.5rem;
-  padding: 3rem 0;
+  row-gap: 2.2rem;
+  padding: 2.5rem 0;
+  height: 100%;
+  width: 90%;
 }
 
 .finder__dropdown {
@@ -90,10 +93,10 @@ a {
 }
 
 .finder__accordion {
-  width: 60rem;
+  width: 100%;
+  grid-column: 1 / 8;
   grid-row: 2 / 7;
   border-radius: var(--border-radius);
-  box-shadow: var(--bo);
 }
 
 .finder__accordion--item {
@@ -145,19 +148,66 @@ a {
 }
 
 .dy__logo {
-  font-family: "Merienda";
-  font-size: 15rem;
-  opacity: 0.9;
+  width: 30rem;
+  margin: 0 10%;
 }
 
 #map {
+  grid-column: 8 / 13;
   grid-row: 2 / 7;
-  height: 500px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
+  border-radius: var(--border-radius);
 
   box-shadow: -2px 2px 9px rgba(0, 0, 0, 0.2);
 }
 
 .gm-style-iw-d h3 {
   color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 1600px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .content-container {
+    padding: 1.5rem 0;
+  }
+
+  .dy__logo {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  :root {
+    font-size: 12px;
+  }
+
+  .finder__container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .finder__dropdown {
+    align-self: center;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+
+  .dy__logo {
+    width: 80%;
+    margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
