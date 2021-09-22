@@ -48,7 +48,7 @@ fetch("./dondeYogaAPI.json")
           itemBody.className = "finder__accordion--item-body";
 
           const liOne = document.createElement("li");
-          liOne.innerHTML = `Sitio Web: <a href="${studio.website} target='_blank'">${studio.name}</a>`;
+          liOne.innerHTML = `Sitio Web: <a href="${studio.website}" target="_blank"> ${studio.name}</a>`;
           const liTwo = document.createElement("li");
           liTwo.innerHTML = `Tel: <a href="tel:+506${studio.phoneNumber}">${studio.phoneNumber}</a>`;
           const liThree = document.createElement("li");
