@@ -26,7 +26,7 @@ fetch("./dondeYogaAPI.json")
         directions.info = "Costa Rica";
         initMap();
         accordionContainer.innerHTML = `
-          <img src="./img/SVG/logo.svg" alt="Logo" class="dy__logo"></img>
+          <img src="./img/SVG/Logo.svg" alt="Logo" class="dy__logo"></img>
         `;
       } else {
         accordionContainer.innerHTML = "";
