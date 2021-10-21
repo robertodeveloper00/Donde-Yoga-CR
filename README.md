@@ -11,15 +11,15 @@ It was all done with HMTL, CSS and Vainilla JavaScript.
 
 ### Step One
 
-* I gathered the information by foot and created a local JSON file to simmulate my API.
+* I gathered the information by foot and created a local JSON file to simulate my API.
 
 ### Step Two
 
-* I then dinamically displayed the information on the screen and added the accordion functionality
+* I then dynamically displayed the information on the screen and added the accordion functionality
 
 ### Step Three
 
-* I struggled around to figure out the Google Mapas API and didn't give up until the functionality was just I imagined it.
+* I struggled around to figure out the Google Maps API and didn't give up until the functionality was just I imagined it.
 
 ### Step Four
 
